@@ -6,10 +6,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #2271b3, #c6e9f9);
+  background: linear-gradient(90deg, #ff7eb3, #ff758c);
   color: white;
   text-align: center;
-  font-family: helvetica, arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
