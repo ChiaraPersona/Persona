@@ -1,23 +1,17 @@
-.testo {
-  background-color: palegreen;
-  border: 2px solid green;
-  border-radius: 10px;
-  padding: 7px;
+body {
+  margin: 0;
+  padding: 0;
+  transition: background 0.2s ease-in-out;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #ff7eb3, #ff758c);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.testo:hover {
-  border-color: red;
-  background-color: yellow;
-}
-
-.link {
-  background-color: #ffb6c1;
-  border: 2px solid #f08080;
-  border-radius: 10px;
-  padding: 3px;
-}
-
-.link,
-.link:visited {
-  color: blue;
+h1 {
+  font-size: 3rem;
 }
