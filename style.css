@@ -1,23 +1,39 @@
-.testo {
-  background-color: palegreen;
-  border: 2px solid green;
-  border-radius: 10px;
-  padding: 7px;
-}
-
-.testo:hover {
-  border-color: red;
-  background-color: yellow;
-}
-
-.link {
-  background-color: #ffb6c1;
-  border: 2px solid #f08080;
-  border-radius: 10px;
-  padding: 3px;
-}
-
-.link,
 .link:visited {
-  color: blue;
+  color: white;
+}
+
+.link:hover {
+  background-color: #22c1c3;
+  color: white;
+}
+
+nav {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    82deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  padding: 10px;
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: blue;
+}
+
+html,
+body {
+  background-color: #f2f2f2; /* Grigio chiarissimo su tutte le pagine */
 }
